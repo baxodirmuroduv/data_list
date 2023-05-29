@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home_P</title>
+    <style>
+        li{
+            font-size:20px;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    {% for post in Barcha_postlar %}
+        <li>{{ post.text }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
